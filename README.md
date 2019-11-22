@@ -57,4 +57,13 @@ For setting up a desktop environment and choosing the desktop itself, [Arcolinux
 ## Live Image
 In order to generate Arch images, you need to use Archiso.
 > Archiso is a small set of bash scripts capable of building fully functional Arch Linux live CD/DVD/USB images.
-[Archiso documentation](https://wiki.archlinux.org/index.php/Archiso)
+- In order to install Archiso use the following command:
+```
+pacman -S archiso
+or
+yaourt archiso-git
+```
+- [Archiso Documentation](https://wiki.archlinux.org/index.php/Archiso).
+- A tutorial on 'How to use Archiso: Custom Arch Linux Build' at Youtube
+   - [Part1](https://www.youtube.com/watch?v=y_Blo7hB8Ag)
+   - [Part2](https://www.youtube.com/watch?v=y_Blo7hB8Ag)

@@ -4,24 +4,24 @@
 For AUT-ICPC competitions of 2019, an Archlinux iso image was provided. 
 So here are some links and explanations for the journey of installing and configuring and having a live image in Archlinux.
 
-## Getting Started
+### Getting Started
 
-At first I quote a heads up from [Archlinux website](https://www.archlinux.org):
+At first I quote a heads up from Archlinux website:
 ```
 You may not want to use Arch, if
 
--	you require support for an architecture other than x86_64.
--	you do not have the ability/time/desire for a 'do-it-yourself' GNU/Linux distribution.
--	you believe an operating system should configure itself, run out of the box, and include a complete default
- 	set of software and desktop environment on the installation media.
+- you require support for an architecture other than x86_64.
+- you do not have the ability/time/desire for a 'do-it-yourself' GNU/Linux distribution.
+- you believe an operating system should configure itself, run out of the box, and include a complete default
+  set of software and desktop environment on the installation media.
 ```
 [See by youself](https://wiki.archlinux.org/index.php/Frequently_asked_questions#Why_would_I_not_want_to_use_Arch?)
 
 ## Contents
-- [Download Arch Iso](#download arch iso)
+- [Download Arch Iso](#download)
 - [Installation](#installation)
 - [Post-installation](#post-installation)
-- [Live Image](#live_image)
+- [Live Image](#live)
 
 ## Download Arch Iso
 You can download Arch iso from [here](https://www.archlinux.org/download).
@@ -29,18 +29,17 @@ You can download Arch iso from [here](https://www.archlinux.org/download).
 ## Installation
 For installing Arch, you can use the documents existing at [Archwiki](https://wiki.archlinux.org) or just watching tutorials at Youtube.
 
-- [Installation guide](https://wiki.archlinux.org/index.php/installation_guide) at Archwiki.
+- [Installation Guide](https://wiki.archlinux.org/index.php/installation_guide) at Archwiki.
 - Tutorials at Youtube:
-  - [first tutorial](https://www.youtube.com/watch?v=DuX4ERxnrsY)
-  - [second tutorial](https://www.youtube.com/watch?v=lizdpoZj_vU&t=1475s)
+  - [First tutorial](https://www.youtube.com/watch?v=DuX4ERxnrsY)
+  - [Second tutorial](https://www.youtube.com/watch?v=lizdpoZj_vU&t=1475s)
 
 
 > Tips
-For a fully functional base system, pay attention to the packages that you append to the **pacstrap** command, otherwise you may end up having no _text editor_ or _network manager_.
+- For a fully functional base system, pay attention to the packages that you append to the **pacstrap** command, otherwise you may end up having no _text editor_ or _network manager_.
 for example:
-`pacstrap /mnt base linux linux-firmware`
-
-Set the system clock up to date. Otherwise you may face some problems later.
+ `pacstrap /mnt base linux linux-firmware`
+- Set the system clock up to date. Otherwise you may face some problems later.
 
 ## Post-installation
 - Like setting up a **graphical user interface**, **sound** or a **touchpad**.

@@ -6,7 +6,7 @@ So here are some links and explanations for the journey of installing and config
 
 ### Getting Started
 
-A heads up from Archlinux website for starting:([See by youself](https://wiki.archlinux.org/index.php/Frequently_asked_questions#Why_would_I_not_want_to_use_Arch?)
+A heads up from Archlinux website for starting([see by youself](https://wiki.archlinux.org/index.php/Frequently_asked_questions#Why_would_I_not_want_to_use_Arch?):
 )
 ```
 You may not want to use Arch, if
@@ -20,10 +20,10 @@ You may not want to use Arch, if
 - Whenever you got stuck in the procedures, Archwiki will be your saviour.
 
 ## Contents
-- [Download Arch Iso](#download)
+- [Download Arch Iso](#download-arch-iso)
 - [Installation](#installation)
 - [Post-installation](#post-installation)
-- [Live Image](#live)
+- [Live Image](#live-image)
 
 ## Download Arch Iso
 You can download Arch iso from [here](https://www.archlinux.org/download).
@@ -55,5 +55,6 @@ You can visit Archwiki for [General recommendations](https://wiki.archlinux.org/
 For setting up a desktop environment and choosing the desktop itself, [Arcolinuxd website](https://arcolinuxd.com/7-the-actual-installation-of-arch-linux-phase-3/) is a good source to go.
 
 ## Live Image
-
-
+In order to generate Arch images, you need to use Archiso.
+> Archiso is a small set of bash scripts capable of building fully functional Arch Linux live CD/DVD/USB images.
+[Archiso documentation](https://wiki.archlinux.org/index.php/Archiso)

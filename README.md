@@ -6,7 +6,8 @@ So here are some links and explanations for the journey of installing and config
 
 ### Getting Started
 
-At first I quote a heads up from Archlinux website:
+A heads up from Archlinux website for starting:([See by youself](https://wiki.archlinux.org/index.php/Frequently_asked_questions#Why_would_I_not_want_to_use_Arch?)
+)
 ```
 You may not want to use Arch, if
 
@@ -15,7 +16,8 @@ You may not want to use Arch, if
 - you believe an operating system should configure itself, run out of the box, and include a complete default
   set of software and desktop environment on the installation media.
 ```
-[See by youself](https://wiki.archlinux.org/index.php/Frequently_asked_questions#Why_would_I_not_want_to_use_Arch?)
+> **General Tip**
+- Whenever you got stuck in the procedures, Archwiki will be your saviour.
 
 ## Contents
 - [Download Arch Iso](#download)
@@ -36,10 +38,10 @@ For installing Arch, you can use the documents existing at [Archwiki](https://wi
 
 
 > Tips
-- For a fully functional base system, pay attention to the packages that you append to the **pacstrap** command, otherwise you may end up having no _text editor_ or _network manager_.
+- For a fully functional base system, pay attention to the packages appended to the end of **pacstrap** command, otherwise you may end up having no _text editor_ or _network manager_.
 for example:
  `pacstrap /mnt base linux linux-firmware`
-- Set the system clock up to date. Otherwise you may face some problems later.
+- Set the system clock up to date, otherwise you may face some problems later.
 
 ## Post-installation
 - Like setting up a **graphical user interface**, **sound** or a **touchpad**.
@@ -47,12 +49,11 @@ You can visit Archwiki for [General recommendations](https://wiki.archlinux.org/
 - For a list of applications that may be of interest, see [List of applications](https://wiki.archlinux.org/index.php/List_of_applications). 
 
 ### Graphical user interface
+- Archwiki's documents on [GUI](https://wiki.archlinux.org/index.php/Category:Graphical_user_interfaces)
 
+#### Desktop environment
+For setting up a desktop environment and choosing the desktop itself, [Arcolinuxd website](https://arcolinuxd.com/7-the-actual-installation-of-arch-linux-phase-3/) is a good source to go.
 
 ## Live Image
 
 
-
-
-> **General Tip**
-- 

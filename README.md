@@ -40,7 +40,9 @@ For installing Arch, you can use the documents existing at [Archwiki](https://wi
 > Tips
 - For a fully functional base system, pay attention to the packages appended to the end of **pacstrap** command, otherwise you may end up having no _text editor_ or _network manager_.
 for example:
- `pacstrap /mnt base linux linux-firmware`
+ ```
+ pacstrap /mnt base linux linux-firmware
+ ```
 - Set the system clock up to date, otherwise you may face some problems later.
 
 ## Post-installation
@@ -57,7 +59,7 @@ For setting up a desktop environment and choosing the desktop itself, [Arcolinux
 ## Live Image
 In order to generate Arch images, you need to use Archiso.
 > Archiso is a small set of bash scripts capable of building fully functional Arch Linux live CD/DVD/USB images.
-- In order to install Archiso use the following command:
+- For installing Archiso use the following command:
 ```
 pacman -S archiso
 or

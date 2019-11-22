@@ -65,7 +65,7 @@ pacman -S archiso
 or
 yaourt archiso-git
 ```
-- [Archiso Documentation](https://wiki.archlinux.org/index.php/Archiso).
+- [Archiso Documentation](https://wiki.archlinux.org/index.php/Archiso)
 - A tutorial on 'How to use Archiso: Custom Arch Linux Build' at Youtube
    - [Part1](https://www.youtube.com/watch?v=y_Blo7hB8Ag)
    - [Part2](https://www.youtube.com/watch?v=y_Blo7hB8Ag)

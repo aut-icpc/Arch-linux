@@ -1,4 +1,4 @@
-# Archlinux
+# Arch-linux
 
 ## Introduction
 For AUT-ICPC competitions of 2019, an Archlinux iso image was provided. 

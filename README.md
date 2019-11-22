@@ -6,8 +6,7 @@ So here are some links and explanations for the journey of installing and config
 
 ### Getting Started
 
-A heads up from Archlinux website for starting([see by youself](https://wiki.archlinux.org/index.php/Frequently_asked_questions#Why_would_I_not_want_to_use_Arch?)
-):
+A heads up from Archlinux website for starting([see by youself](https://wiki.archlinux.org/index.php/Frequently_asked_questions#Why_would_I_not_want_to_use_Arch?)):
 ```
 You may not want to use Arch, if
 

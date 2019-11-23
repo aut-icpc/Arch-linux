@@ -67,12 +67,12 @@ sudo systemctl enable lightdm.service
 ```
 - **Do not reboot until you have a desktop environment.**
 - **Do not FORGET TO ENABLE Lightdm**
-Now choose your desktop!(I go with Xfce now):
+Now choose your desktop([**List of desktop environment**]((https://arcolinuxd.com/7-the-actual-installation-of-arch-linux-phase-3/))!I go with Xfce now:
 ```
 sudo pacman -S xfce4
 sudo pacman -S xfce4-goodies
 ```
-If you forget to activate the **lightdm.service** in the previous article you will **never** be able to boot into the **graphical** environment. Of course you can fix it but I'm giving you the heads up! :)
+If you forget to activate the **lightdm.service** you will **never** be able to boot into the **graphical** environment. Of course you can fix it but I'm giving you the heads up! :)
 
 ## Live Image
 In order to generate Arch images, you need to use Archiso.

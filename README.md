@@ -22,6 +22,8 @@ You may not want to use Arch, if
 - [Download Arch Iso](#download-arch-iso)
 - [Installation](#installation)
 - [Post-installation](#post-installation)
+   - [Graphical user interface](#graphical-user-interface)
+      - [Desktop environment](#desktop-environment)
 - [Live Image](#live-image)
 
 ## Download Arch Iso

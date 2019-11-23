@@ -61,7 +61,9 @@ In order to generate Arch images, you need to use Archiso.
 - For installing Archiso use the following command:
 ```
 pacman -S archiso
+```
 or
+```
 yaourt archiso-git
 ```
 - [Archiso Documentation](https://wiki.archlinux.org/index.php/Archiso)

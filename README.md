@@ -66,8 +66,8 @@ sudo pacman -S lightdm-gtk-greeter lightdm-gtk-greeter-settings
 sudo systemctl enable lightdm.service
 ```
 - **Do not reboot until you have a desktop environment.**
-- **Do not FORGET TO ENABLE Lightdm**
-Now choose your desktop([**List of desktop environment**]((https://arcolinuxd.com/7-the-actual-installation-of-arch-linux-phase-3/))!I go with Xfce now:
+- **Do not FORGET TO ENABLE Lightdm**.
+Now choose your desktop([List of desktop environment](https://arcolinuxd.com/7-the-actual-installation-of-arch-linux-phase-3/))!I go with Xfce now:
 ```
 sudo pacman -S xfce4
 sudo pacman -S xfce4-goodies

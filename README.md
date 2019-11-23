@@ -53,7 +53,26 @@ You can visit Archwiki for [General recommendations](https://wiki.archlinux.org/
 - Archwiki's documents on [GUI](https://wiki.archlinux.org/index.php/Category:Graphical_user_interfaces)
 
 #### Desktop environment
-For setting up a desktop environment and choosing the desktop itself, [Arcolinuxd website](https://arcolinuxd.com/7-the-actual-installation-of-arch-linux-phase-3/) is a good source to go.
+For setting up a desktop environment and choosing the desktop itself, [Arcolinuxd website](https://arcolinuxd.com/7-the-actual-installation-of-arch-linux-phase-3/) is a good source to go. 
+- An example of installing Xfce on Arch(Of course you can install something else instead of Xfce):
+```
+pacman -S xorg-server xorg-apps xorg-xinit xterm
+```
+You need to install a display manager or a login manager. For example install **lightdm**.
+We will install the desktop environment **Deepin** lateron. We do **not** need to install **line 2** now. Deepin has its own lightdm greeter.
+```
+sudo pacman -S lightdm
+sudo pacman -S lightdm-gtk-greeter lightdm-gtk-greeter-settings
+sudo systemctl enable lightdm.service
+```
+- **Do not reboot until you have a desktop environment.**
+- **Do not FORGET TO ENABLE Lightdm**
+Now choose your desktop!(I go with Xfce now):
+```
+sudo pacman -S xfce4
+sudo pacman -S xfce4-goodies
+```
+If you forget to activate the **lightdm.service** in the previous article you will **never** be able to boot into the **graphical** environment. Of course you can fix it but I'm giving you the heads up! :)
 
 ## Live Image
 In order to generate Arch images, you need to use Archiso.

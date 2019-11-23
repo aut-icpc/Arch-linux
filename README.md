@@ -61,16 +61,16 @@ pacman -S xorg-server xorg-apps xorg-xinit xterm
 You need to install a display manager or a login manager. For example install **lightdm**.
 We will install the desktop environment **Deepin** lateron. We do **not** need to install **line 2** now. Deepin has its own lightdm greeter.
 ```
-sudo pacman -S lightdm
-sudo pacman -S lightdm-gtk-greeter lightdm-gtk-greeter-settings
-sudo systemctl enable lightdm.service
+pacman -S lightdm
+pacman -S lightdm-gtk-greeter lightdm-gtk-greeter-settings
+systemctl enable lightdm.service
 ```
 - **Do not reboot until you have a desktop environment.**
 - **Do not FORGET TO ENABLE Lightdm**.
 Now choose your desktop([List of desktop environments](https://arcolinuxd.com/7-the-actual-installation-of-arch-linux-phase-3/))!I go with Xfce now:
 ```
-sudo pacman -S xfce4
-sudo pacman -S xfce4-goodies
+pacman -S xfce4
+pacman -S xfce4-goodies
 ```
 If you forget to activate the **lightdm.service** you will **never** be able to boot into the **graphical** environment. Of course you can fix it but I'm giving you the heads up! :)
 

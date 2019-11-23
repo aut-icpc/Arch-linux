@@ -1,9 +1,9 @@
 # Arch-linux
-![alt text](https://raw.githubusercontent.com/aut-icpc/Arch-linux/master/Arch-Xfce.png)
+
 ## Introduction
 For AUT-ICPC competitions of 2019, an Archlinux iso image was provided. 
 So here are some links and explanations for the journey of installing and configuring and having a live image in Archlinux.
-
+![alt text](https://raw.githubusercontent.com/aut-icpc/Arch-linux/master/Arch-Xfce4.png)
 ### Getting Started
 
 A heads up from Archlinux website for starting([see by youself](https://wiki.archlinux.org/index.php/Frequently_asked_questions#Why_would_I_not_want_to_use_Arch?)):
